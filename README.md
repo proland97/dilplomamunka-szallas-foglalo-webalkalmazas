@@ -1,2 +1,1 @@
-# dilplomamunka-szallas-foglalo-webalkalmazas
-Diplomamunka - szállás forgaló alkalmazás
+# apartment-rental-app

@@ -1,0 +1,26 @@
+name: Build steps for project
+
+on:
+  push:
+    branches: [ develop ]
+  pull_request:
+    branches: [ develop ]
+
+  workflow_dispatch:
+
+jobs:
+  backend_build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Start the server
+        run: cd rental-app-backend && npm install
+  
+  frontend_build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Start the server
+        run: cd rental-app-frontend && npm install && npm run build

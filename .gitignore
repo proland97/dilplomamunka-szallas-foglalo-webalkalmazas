@@ -1,0 +1,17 @@
+rental-app-backend/node_modules
+
+rental-app-backend/.env
+rental-app-backend/package-lock.json
+rental-app-backend/learning.js
+rental-app-backend/logs
+rental-app-backend/.nyc_output
+rental-app-backend/coverage
+rental-app-backend/notes.txt
+rental-app-backend/.idea
+
+rental-app-frontend/node_modules
+rental-app-frontend/package-lock.json
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.

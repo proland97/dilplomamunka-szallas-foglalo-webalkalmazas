@@ -1,0 +1,9 @@
+{
+    "env": {
+        "url": "http://localhost:8080",
+        "login_url": "http://localhost:8080",
+        "email": "test@test.dev",
+        "username": "testuser",
+        "password": "asdASD123"
+    }
+}
